@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Cards with Tailwind CSS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="overflow-x-hidden">
+    <div
+      class="main h-screen flex flex-col items-center justify-center w-full overflow-x-hidden overflow-y-auto bg-yellow-200"
+    >
+      <div
+        class="top flex flex-wrap justify-center gap-5 py-2 w-full max-w-screen-lg mx-auto"
+      >
+        <!-- Card One -->
+        <div
+          class="card-one border-2 border-white px-2 h-60 w-full sm:w-52 md:w-52 lg:w-52 xl:w-52 rounded-xl bg-slate-200 flex flex-col"
+        >
+          <div class="cart-top h-8 w-full flex justify-between px-2 py-1">
+            <h4 class="font-semibold text-sm">$120/hr</h4>
+            <h4 class="font-semibold text-sm">
+              <i class="ri-price-tag-line"></i>
+            </h4>
+          </div>
+          <div class="card-center relative h-40 w-full px-4 py-2">
+            <h1 class="font-bold font-mono">
+              Senior UI <br />
+              Developer
+            </h1>
+            <i class="ri-arrow-right-line absolute top-[45%] right-[8%]"></i>
+            <h1
+              class="absolute font-bold bottom-[5%] left-[40%] text-4xl opacity-100"
+            >
+              .<span class="opacity-70">...</span>
+            </h1>
+          </div>
+          <div class="card-btm flex items-center w-full h-12">
+            <div class="img items-center w-40 flex gap-2 font-semibold">
+              <img class="h-12" src="logos/nike.png" alt="" />
+              <h5 class="leading-none text-xs font-bold">
+                Senior UI Developer
+              </h5>
+            </div>
+            <button class="h-6 w-12 bg-black text-white text-xs rounded-full">
+              View
+            </button>
+          </div>
+        </div>
+
+        <!-- Card Two -->
+        <div
+          class="card-two border-2 border-white px-2 h-60 w-full sm:w-52 md:w-52 lg:w-52 xl:w-52 rounded-xl bg-slate-200 flex flex-col"
+        >
+          <div class="cart-top h-8 w-full flex justify-between px-2 py-1">
+            <h4 class="font-semibold text-sm">$150/hr</h4>
+            <h4 class="font-semibold text-sm">
+              <i class="ri-price-tag-line"></i>
+            </h4>
+          </div>
+          <div class="card-center relative h-40 w-full px-4 py-2">
+            <h1 class="font-bold font-mono">
+              Senior Backend <br />
+              Developer
+            </h1>
+            <i class="ri-arrow-right-line absolute top-[45%] right-[8%]"></i>
+            <h1
+              class="absolute font-bold bottom-[5%] left-[40%] text-4xl opacity-100"
+            >
+              .<span class="opacity-70">...</span>
+            </h1>
+          </div>
+          <div class="card-btm flex items-center w-full h-12">
+            <div class="img items-center w-40 flex gap-1 font-semibold">
+              <img class="h-6" src="logos/google.png" alt="" />
+              <h5 class="leading-none text-xs font-bold">
+                Senior Backend Developer
+              </h5>
+            </div>
+            <button class="h-6 w-12 bg-black text-white text-xs rounded-full">
+              View
+            </button>
+          </div>
+        </div>
+
+        <!-- Card Three -->
+        <div
+          class="card-one border-2 border-white px-2 h-60 w-full sm:w-52 md:w-52 lg:w-52 xl:w-52 rounded-xl bg-slate-200 flex flex-col"
+        >
+          <div class="cart-top h-8 w-full flex justify-between px-2 py-1">
+            <h4 class="font-semibold text-sm">$120/hr</h4>
+            <h4 class="font-semibold text-sm">
+              <i class="ri-price-tag-line"></i>
+            </h4>
+          </div>
+          <div class="card-center relative h-40 w-full px-4 py-2">
+            <h1 class="font-bold font-mono">
+              Azure Data <br />
+              Engineer
+            </h1>
+            <i class="ri-arrow-right-line absolute top-[45%] right-[8%]"></i>
+            <h1
+              class="absolute font-bold bottom-[5%] left-[40%] text-4xl opacity-100"
+            >
+              .<span class="opacity-70">...</span>
+            </h1>
+          </div>
+          <div class="card-btm flex items-center w-full h-12">
+            <div class="img items-center w-40 flex gap-2 font-semibold">
+              <img class="h-12" src="logos/airbnb.png" alt="" />
+              <h5 class="leading-none text-xs font-bold">
+                Azure Data Engineer
+              </h5>
+            </div>
+            <button class="h-6 w-12 bg-black text-white text-xs rounded-full">
+              View
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="top flex flex-wrap justify-center gap-5 py-2 w-full max-w-screen-lg mx-auto"
+      >
+        <!-- Card One -->
+        <div
+          class="card-one border-2 border-white px-2 h-60 w-full sm:w-52 md:w-52 lg:w-52 xl:w-52 rounded-xl bg-slate-200 flex flex-col"
+        >
+          <div class="cart-top h-8 w-full flex justify-between px-2 py-1">
+            <h4 class="font-semibold text-sm">$120/hr</h4>
+            <h4 class="font-semibold text-sm">
+              <i class="ri-price-tag-line"></i>
+            </h4>
+          </div>
+          <div class="card-center relative h-40 w-full px-4 py-2">
+            <h1 class="font-bold font-mono">
+              Senior UI <br />
+              Developer
+            </h1>
+            <i class="ri-arrow-right-line absolute top-[45%] right-[8%]"></i>
+            <h1
+              class="absolute font-bold bottom-[5%] left-[40%] text-4xl opacity-100"
+            >
+              .<span class="opacity-70">...</span>
+            </h1>
+          </div>
+          <div class="card-btm flex items-center w-full h-12">
+            <div class="img items-center w-40 flex gap-2 font-semibold">
+              <img class="h-12" src="logos/nike.png" alt="" />
+              <h5 class="leading-none text-xs font-bold">
+                Senior UI Developer
+              </h5>
+            </div>
+            <button class="h-6 w-12 bg-black text-white text-xs rounded-full">
+              View
+            </button>
+          </div>
+        </div>
+
+        <!-- Card Two -->
+        <div
+          class="card-two border-2 border-white px-2 h-60 w-full sm:w-52 md:w-52 lg:w-52 xl:w-52 rounded-xl bg-slate-200 flex flex-col"
+        >
+          <div class="cart-top h-8 w-full flex justify-between px-2 py-1">
+            <h4 class="font-semibold text-sm">$150/hr</h4>
+            <h4 class="font-semibold text-sm">
+              <i class="ri-price-tag-line"></i>
+            </h4>
+          </div>
+          <div class="card-center relative h-40 w-full px-4 py-2">
+            <h1 class="font-bold font-mono">
+              Senior Backend <br />
+              Developer
+            </h1>
+            <i class="ri-arrow-right-line absolute top-[45%] right-[8%]"></i>
+            <h1
+              class="absolute font-bold bottom-[5%] left-[40%] text-4xl opacity-100"
+            >
+              .<span class="opacity-70">...</span>
+            </h1>
+          </div>
+          <div class="card-btm flex items-center w-full h-12">
+            <div class="img items-center w-40 flex gap-1 font-semibold">
+              <img class="h-6" src="logos/google.png" alt="" />
+              <h5 class="leading-none text-xs font-bold">
+                Senior Backend Developer
+              </h5>
+            </div>
+            <button class="h-6 w-12 bg-black text-white text-xs rounded-full">
+              View
+            </button>
+          </div>
+        </div>
+
+        <!-- Card Three -->
+        <div
+          class="card-one border-2 border-white px-2 h-60 w-full sm:w-52 md:w-52 lg:w-52 xl:w-52 rounded-xl bg-slate-200 flex flex-col"
+        >
+          <div class="cart-top h-8 w-full flex justify-between px-2 py-1">
+            <h4 class="font-semibold text-sm">$120/hr</h4>
+            <h4 class="font-semibold text-sm">
+              <i class="ri-price-tag-line"></i>
+            </h4>
+          </div>
+          <div class="card-center relative h-40 w-full px-4 py-2">
+            <h1 class="font-bold font-mono">
+              Azure Data <br />
+              Engineer
+            </h1>
+            <i class="ri-arrow-right-line absolute top-[45%] right-[8%]"></i>
+            <h1
+              class="absolute font-bold bottom-[5%] left-[40%] text-4xl opacity-100"
+            >
+              .<span class="opacity-70">...</span>
+            </h1>
+          </div>
+          <div class="card-btm flex items-center w-full h-12">
+            <div class="img items-center w-40 flex gap-2 font-semibold">
+              <img class="h-12" src="logos/airbnb.png" alt="" />
+              <h5 class="leading-none text-xs font-bold">
+                Azure Data Engineer
+              </h5>
+            </div>
+            <button class="h-6 w-12 bg-black text-white text-xs rounded-full">
+              View
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
