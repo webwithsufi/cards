@@ -20,7 +20,7 @@ This project demonstrates a responsive card layout built using **Tailwind CSS**.
 ## Preview
 You can view the live demo of the responsive cards layout here:
 
-[**Preview the Responsive Cards**](https://your-username.github.io/responsive-cards-tailwind/)
+[**Preview the Responsive Cards**](https://webwithsufi.github.io/cards/)
 
 Here is what the card layout looks like across different devices:
 
